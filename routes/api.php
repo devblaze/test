@@ -18,6 +18,7 @@ use Illuminate\Support\Facades\Route;
     return $request->user();
 });*/
 
+// Easy find commit
 /**
  * API call api/getcompanies
  */

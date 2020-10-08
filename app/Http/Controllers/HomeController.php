@@ -7,10 +7,10 @@ use Illuminate\Support\Facades\Auth;
 
 class HomeController extends Controller
 {
+    // Easy find commit
     /**
      * Create a new access token everytime the view is returned.
      *
-     * 
      * @return Renderable
      */
     public function index(): Renderable

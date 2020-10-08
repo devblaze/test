@@ -8,6 +8,7 @@ use Illuminate\Support\Facades\Auth;
 
 class TestCompaniesController extends Controller
 {
+    // Easy find commit
     /**
      * Returns all the TestCompanies as a JSON if the token has the permission. ( Bearer: $token, Accept: application/json )
      *

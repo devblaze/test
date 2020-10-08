@@ -7,6 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class TestCompanies extends Model
 {
+    // Easy find commit
     use HasFactory;
 
     protected $fillable = ['name', 'address', 'phone'];
