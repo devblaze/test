@@ -1,5 +1,4 @@
 ## Test Project 
-
 ### Instructions for local deployment:
 1. composer require laravel/passport
 2. php artisan migrate
@@ -9,3 +8,7 @@
 	- http://127.0.0.1:8000/api/getcompanies
 	- Authorization: Bearer $token
 	- Accept: application/json
+
+### Testing Account after Database Seed
+- Email: test@test
+- Password: test
