@@ -16,6 +16,7 @@ class HomeController extends Controller
     public function index(): Renderable
     {
         $accessToken = Auth::user()->createToken('authToken', ['get_companies'])->accessToken;
-        return view('home', ['access_token' => $accessToken]);
+        $accessToken2 = Auth::user()->createToken('authToken')->accessToken;
+        return view('home', ['access_token' => $accessToken, 'noaccess_token' => $accessToken2]);
     }
 }
